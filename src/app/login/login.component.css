@@ -13,15 +13,33 @@
     margin-left: 30%;
     background-color: #4267B2;
 } */
- .c1{
-display: flex;
+/* display: flex;
 justify-content: center;
 align-items: center;
-height: 100vh; /* Adjust as needed */
+height: 100vh; 
 }
 form {
-width: 50%; /* Adjust the width of the form as per your design */
+width: 50%; 
 padding: 20px;
 border: 1px solid #ccc;
 background-color: #f9f9f9;
+} */
+.d1{
+    max-width: 20%; 
+    margin-left: 78%; 
+    top: 30%; 
+    position: absolute;
+}
+
+.d2{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.button
+{
+    background-color:#4267B2;
+    margin-top: 5%; 
+    margin-left: 30%
 }

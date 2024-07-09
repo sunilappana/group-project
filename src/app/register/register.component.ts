@@ -14,7 +14,7 @@ export class RegisterComponent implements OnInit {
   name: string = '';
   email: string = '';
   password: string = '';
-  role:string = "";
+  role:string = "user";
 
   constructor(private userService:UserService, private bar: MatSnackBar,private route:Router) { }
 

@@ -17,7 +17,6 @@ import { RegisterComponent } from './register/register.component';
 import { UserdashboardComponent } from './userdashboard/userdashboard.component';
 import { QuestiondashboardComponent } from './questiondashboard/questiondashboard.component';
 import { AskquestionComponent } from './askquestion/askquestion.component';
-import { ChatComponent } from './chat/chat.component';
 import { AdmindashboardComponent } from './admindashboard/admindashboard.component';
 import { NewquestionComponent } from './newquestion/newquestion.component';
 import { QuestionsComponent } from './questions/questions.component';
@@ -58,7 +57,6 @@ import { UpdateadminComponent } from './updateadmin/updateadmin.component';
     UserdashboardComponent,
     QuestiondashboardComponent,
     AskquestionComponent,
-    ChatComponent,
     AdmindashboardComponent,
     NewquestionComponent,
     QuestionsComponent,

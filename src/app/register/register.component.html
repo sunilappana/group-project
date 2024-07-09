@@ -1,4 +1,4 @@
-<mat-toolbar  color="accent">
+<mat-toolbar  color="warn">
   <mat-toolbar-row class="fixed-header">
 
    
@@ -6,8 +6,9 @@
      
     <!-- <h1>DoConnect</h1> -->
    
-    <div style="margin-left: 72%" class="nav">
-      <a mat-button [routerLink]="'/'"> <b>Login</b> </a>
+    <div style="margin-left: 75%" class="nav">
+      <a mat-button [routerLink]="'/'"> <b>Home</b> </a>
+      <a mat-button [routerLink]="'/login'"> <b>Login</b> </a>
     </div>
   </mat-toolbar-row>
 </mat-toolbar>
@@ -32,19 +33,19 @@
             <mat-label>Password</mat-label>
             <input type="password" name="password" matInput [(ngModel)]="password" required/>
           </mat-form-field>
-          <mat-form-field appearance="fill">
+          <!-- <mat-form-field appearance="fill">
             <mat-label>Select</mat-label>
             <mat-select [(ngModel)]="role" required name="role">
               <mat-option value="user">User</mat-option>
               <mat-option value="admin">Admin</mat-option>
             </mat-select>
-          </mat-form-field>
+          </mat-form-field> -->
         </form>
       </div>
       <button class="button" mat-raised-button color="primary" (click)="register()">Register</button>
     </mat-card-content>
   </mat-card>
 </div>
-
+<app-description></app-description>
 <app-footer></app-footer>
 

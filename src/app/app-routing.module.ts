@@ -3,7 +3,6 @@ import { RouterModule, Routes } from '@angular/router';
 import { AdmincrudComponent } from './admincrud/admincrud.component';
 import { AdmindashboardComponent } from './admindashboard/admindashboard.component';
 import { AskquestionComponent } from './askquestion/askquestion.component';
-import { ChatComponent } from './chat/chat.component';
 import { HomeComponent } from './home/home.component';
 import { NewquestionComponent } from './newquestion/newquestion.component';
 import { QuestiondashboardComponent } from './questiondashboard/questiondashboard.component';
@@ -21,7 +20,6 @@ const routes: Routes = [
   {path:'AdminDashBoard',component:AdmindashboardComponent},
   {path:'AskQuestion',component:AskquestionComponent},
   {path:'QuestionDashBoard',component:QuestiondashboardComponent},
-  {path:'Chat',component:ChatComponent},
   {path:'NewQuestions',component:NewquestionComponent},
   {path:'Questions',component:QuestionsComponent},
   {path:'UserUpdate',component:UsercrudComponent},
