@@ -1,0 +1,22 @@
+.nav a{
+    font-weight: 400;
+    font-size: large;
+    width: 10%;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.d1{
+    margin-left: 60%;
+}
+
+mat-toolbar{
+
+    width: 120%;
+}
+
+mat-toolbar-row{
+
+    width: 100%;
+}
+
+

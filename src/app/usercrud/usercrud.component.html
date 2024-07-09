@@ -1,0 +1,46 @@
+<mat-toolbar  color="accent">
+    <mat-toolbar-row class="fixed-header">
+  
+     
+       <img src="https://cdn.doconnect.fr/wp-content/uploads/2021/01/doconnect-logo-doconnect-google-avis-clients-supprimer-un-avis-google-laisser-un-avis-google-my-business.png" alt="Logo"  style="width: 10%"/>   
+       
+      <h1>DoConnect</h1>
+      <span class="menu-spacer"></span>
+      <div class="div">
+        <a mat-button  [routerLink]="'/UserDashBoard'"> UserDashBoard </a>
+        <a mat-button  [routerLink]="'/QuestionDashBoard'"> QuestionDashBoard </a>
+        <a mat-button [routerLink]="'/AskQuestion'"> AskQuestion </a>
+        <a mat-button [routerLink]="'/Chat'"> Chat </a>
+        <a mat-button [routerLink]="'/'"> Logout </a>
+      </div>
+    </mat-toolbar-row>
+  </mat-toolbar>
+<div class="d1">
+    <mat-card style="height: 100%;">
+      <mat-card-title style="margin-left: 36%;color: orange;">Update Login Credentials</mat-card-title><br /><br />
+      <mat-card-content>
+        <div  class="d2">
+          <form style="text-align: center;">
+            <mat-form-field appearance="outline" class="form1">
+              <mat-label>New Name</mat-label>
+              <input type="text" name="name" matInput [(ngModel)]="name" required/>
+            </mat-form-field>
+            <br />
+            <mat-form-field appearance="outline" class="form1">
+              <mat-label>New Email</mat-label>
+              <input type="email" name="email" matInput [(ngModel)]="email" required/>
+            </mat-form-field>
+            <br />
+            <mat-form-field appearance="outline" class="form1">
+              <mat-label>New Password</mat-label>
+              <input type="password" name="password" matInput [(ngModel)]="password" required/>
+            </mat-form-field>
+           
+          </form>
+        </div>
+        <div style="text-align: center;">
+        <button class="button" mat-raised-button color="primary"  (click)="update()">Update</button>
+        </div>
+      </mat-card-content>
+    </mat-card>
+  </div>

@@ -1,0 +1,36 @@
+<mat-toolbar  color="accent">
+    <mat-toolbar-row class="fixed-header">
+  
+     
+       <img src="https://cdn.doconnect.fr/wp-content/uploads/2021/01/doconnect-logo-doconnect-google-avis-clients-supprimer-un-avis-google-laisser-un-avis-google-my-business.png" alt="Logo"  style="width: 10%"/>   
+       
+      <h1>DoConnect</h1>
+      <span class="menu-spacer"></span>
+      <div class="d1">
+        <a mat-button  [routerLink]="'/QuestionDashBoard'"> QuestionDashBoard </a>
+        <a mat-button [routerLink]="'/AskQuestion'"> AskQuestion </a>
+        <a mat-button [routerLink]="'/Chat'"> Chat </a>
+        <a mat-button [routerLink]="'/UserUpdate'"> UserUpdate </a>
+        <a mat-button [routerLink]="'/'"> Logout </a>
+      </div>
+    </mat-toolbar-row>
+  </mat-toolbar>
+  
+<div class="center">
+<div class="w3-container center">
+  <div class="w3-card-4 w3-dark-grey" style="width:50%">
+
+    <div class="w3-container w3-center">
+      <h1> {{user}} , Let's Dive into the world of questions!</h1>
+      <img src="https://www.quotemaster.org/images/91/91a1106daac97ce0e243c6e26495a9c4.png" alt="Avatar" style="width:80%">
+      <br/>
+      <div class="w3-section">
+        
+        <button mat-raised-button color="primary"><a routerLink="/AskQuestion" style="text-decoration: none; color:aliceblue;"> <h3> ASK</h3> </a></button> &nbsp; &nbsp;
+        <button mat-raised-button color="primary"><a routerLink="/QuestionDashBoard" style="text-decoration: none;color:aliceblue;"> <h3> User Questions</h3> </a></button>
+      </div>
+    </div>
+
+  </div>
+</div>
+</div>

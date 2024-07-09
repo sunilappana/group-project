@@ -1,0 +1,39 @@
+table {
+   width: 100%;
+}
+
+h1 {
+
+    text-align: center;
+
+    color: green;
+
+    font-size: x-large;
+
+}
+
+th {
+
+    background-color: hotpink;
+
+    color: maroon;
+
+    font-size: large;
+
+
+
+}
+
+td {
+
+    background-color: chartreuse;
+
+    color: blue;
+
+    font-size: medium;
+
+}
+
+.d1{
+    margin-left: 26%;
+}

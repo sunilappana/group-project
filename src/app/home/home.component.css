@@ -1,0 +1,12 @@
+.title_center {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+  }
+
+  .d1{
+    max-width: 20%; 
+    margin-left: 78%; 
+    top: 30%; 
+    position: absolute
+  }

@@ -1,0 +1,41 @@
+<mat-toolbar  color="accent">
+  <mat-toolbar-row class="fixed-header">
+
+   
+     <img src="https://cdn.doconnect.fr/wp-content/uploads/2021/01/doconnect-logo-doconnect-google-avis-clients-supprimer-un-avis-google-laisser-un-avis-google-my-business.png" alt="Logo"  style="width: 10%"/>   
+     
+    <!-- <h1>DoConnect</h1> -->
+   
+    <div style="margin-left: 80%" class="nav">
+      <a mat-button [routerLink]="'/'"> <b>Login</b> </a>
+    </div>
+  </mat-toolbar-row>
+</mat-toolbar>
+<div  class="c1">
+<mat-card >
+    <mat-card-title  style="margin-left: 30%">Login</mat-card-title>
+    <mat-card-content>
+      <div class="c2">
+        <form>
+          <mat-form-field appearance="fill">
+            <mat-label>Email</mat-label>
+            <input type="email" required name="email" matInput [(ngModel)]="email" />
+          </mat-form-field>
+          <mat-form-field appearance="fill">
+            <mat-label>Password</mat-label>
+            <input type="password" name="password" required matInput [(ngModel)]="password"/>       
+         </mat-form-field>
+          <mat-form-field appearance="fill">
+            <mat-label>Select</mat-label>
+            <mat-select [(ngModel)]="role" required name="role">
+              <mat-option value="user">User</mat-option>
+              <mat-option value="admin">Admin</mat-option>
+            </mat-select>
+          </mat-form-field>
+        </form>
+      </div>
+      <button class="b1" mat-raised-button (click)="login()"> Login</button>
+    </mat-card-content>
+  </mat-card>
+</div>
+<app-footer></app-footer>

@@ -1,0 +1,49 @@
+.d1{
+    position: absolute;
+    margin-left: 35vw;
+    top: 5%;
+}
+
+.d2{
+    margin-top: 5vh;
+}
+
+.que{
+    color:red;
+    font-size: large;
+  }
+
+.ans{
+    color:green;
+}
+
+#sidebar {
+    width: 312px;
+    --post-line-color: #ccc;
+    border: 1px solid #ccc;
+    margin-left:63%;
+    top: 22%; 
+    position: absolute;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: red;
+    border-radius: 4px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .guidelines {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: rgb(255, 0, 0);
+  }
+
+  .d1{
+    margin-left: 52%;
+}
+
+
+

@@ -1,0 +1,30 @@
+<div>
+    <mat-card>
+      <mat-card-content>
+        <div>
+          <form>
+            <h1 mat-card-title>{{ data.question }}</h1>
+            <mat-form-field style="width: 30vw" appearance="outline">
+              <mat-label>Answer Here</mat-label>
+              <textarea rows="4" matInput type="text" name="id" [(ngModel)]="data.answer"></textarea>
+            </mat-form-field>
+            <div class="form-outline mb-4">
+                <h3>Attach file: </h3>
+                <input type="file" id="image" class="form-control"   (change)="selectFile($event)" /><br />
+                <div style="text-align: center;">
+                 <button mat-raised-button  color="accent" (click)="uploadFile()">Upload File</button>
+                </div>
+            </div>
+          </form>
+        </div>
+      </mat-card-content>
+    </mat-card>
+  </div>
+  <button
+    mat-raised-button
+    color="warn"
+    style="margin-top: 8%; margin-left: 45%"
+    (click)="sendAnswer()"
+  >
+    Submit
+  </button>
